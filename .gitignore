@@ -1,1 +1,16 @@
-Course Material/
+# Course material supplied by the instructor
+/Course Material/
+
+# Local PostgreSQL sample database archive
+/dvdrental.tar
+
+# Other PostgreSQL backup formats
+*.backup
+*.dump
+
+# Temporary SQL scratch file
+/scratch.sql
+
+# Windows-generated files
+Thumbs.db
+desktop.ini
