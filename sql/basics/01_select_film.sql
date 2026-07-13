@@ -1,5 +1,8 @@
---Getting columns from tabels and exercises
+--SELECT DISTINCT - Exercise
 
-SELECT first_name, last_name, email
-FROM customer
+--What ratings do we have in our database? 
+
+
+SELECT DISTINCT rating
+FROM film;
 
