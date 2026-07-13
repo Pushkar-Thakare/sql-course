@@ -1,8 +1,5 @@
---SELECT DISTINCT - Exercise
+-- Using COUNT
 
---What ratings do we have in our database? 
-
-
-SELECT DISTINCT rating
+SELECT COUNT(title)
 FROM film;
 
