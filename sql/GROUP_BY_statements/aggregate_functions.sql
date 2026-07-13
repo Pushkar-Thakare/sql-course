@@ -7,7 +7,9 @@
 -- SUM()
 
 --Notes:
--- happen only in SELECT and HAVING clause
+-- Aggregate functions summarize groups of rows.
+-- They are commonly used in SELECT, HAVING, and ORDER BY.
+-- They cannot normally be used directly in WHERE because WHERE filters rows before grouping and aggregation occur.
 -- COUNT() returns only the number of rows
 
 

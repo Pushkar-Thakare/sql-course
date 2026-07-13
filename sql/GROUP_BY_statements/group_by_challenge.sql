@@ -7,7 +7,7 @@ FROM payment
 GROUP BY staff_id
 ORDER BY COUNT(amount) DESC;
 
--- hence staff_id 2 should get bonus for handling $7304
+-- hence staff_id 2 should get bonus for handling 7304 payment transactions
 
 
 -- 2. What is the average replacement cost per MPAA rating

@@ -50,7 +50,7 @@ LIMIT 5;
 SELECT customer_id, SUM(amount)
 FROM payment
 GROUP BY customer_id
-ORDER BY COUNT(amount) DESC 
+ORDER BY SUM(amount) DESC 
 LIMIT 5;
 
 -- how much amount does each staff_id handle
