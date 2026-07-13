@@ -5,4 +5,9 @@
 SELECT title
 FROM film
 WHERE replacement_cost > 25 
+<<<<<<< Updated upstream
 AND rating ='R'
+=======
+AND rating ='R'
+
+>>>>>>> Stashed changes
