@@ -1,16 +1,25 @@
--- Using WHERE
+-- SELECT WHERE Exercises
+-- Challegnge No. 1
+-- find email of customer named Nancy Thomas
 
--- get title of all R rated movies whose replacement cost is above $25
+select email
+from customer
+where first_name = 'Nancy' and last_name = 'Thomas';
 
-SELECT title
--- get title of all R rated movies whose replacement cost is above $25
+-- Challenge No. 2
+-- give description for movie Outlaw Hanky
 
-SELECT title
-FROM film
-WHERE replacement_cost > 25 
-<<<<<<< Updated upstream
-AND rating ='R'
-=======
-AND rating ='R'
+select description
+from film
+where title = 'Outlaw Hanky';
 
->>>>>>> Stashed changes
+-- Challenge No. 3
+-- give phone number for customer who lives at 259 Ipoh Drive
+
+select phone
+from address
+where address = '259 Ipoh Drive';
+
+
+
+
