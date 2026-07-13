@@ -1,7 +1,7 @@
--- Using COUNT
+-- Using WHERE
 
--- number of unique replacement cost 
+SELECT *
+FROM film
+WHERE replacement_cost > 25 ;
 
-SELECT COUNT(DISTINCT replacement_cost)
-FROM film;
 
