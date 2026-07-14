@@ -1,0 +1,18 @@
+DATE:14-07-2026
+TIME: 6:09 PM
+
+DID:
+- Finished with JOIN statements and it's challenge
+
+LEARNED / DECIDED:
+- JOIN statements - inner, full outer, left, right
+- how to join multiple tables
+
+PROBLEM:
+- still unclear about the advanced syntax 
+- unclear about further types of joins
+- further understanding of join operation needed
+
+NEXT:
+- Move to next course section Advanced SQL Commands 
+- Read documentation on JOIN statements and further explore those commands
