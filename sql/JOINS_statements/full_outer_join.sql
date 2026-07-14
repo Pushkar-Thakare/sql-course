@@ -1,6 +1,8 @@
 -- OUTER JOIN
 
--- Its just UNION
+-- FULL OUTER JOIN returns all matching rows,
+-- plus unmatched rows from both tables with NULLs
+-- for columns from the missing side.
 
 -- Syntax Ex:
 --		SELECT * FROM Registrations

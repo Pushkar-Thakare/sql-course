@@ -41,7 +41,7 @@ WHERE first_name = 'Nick' AND last_name = 'Wahlberg'; -- oh heck yeah, didn't kn
 SELECT title, first_name, last_name
 FROM film_actor
 INNER JOIN actor ON film_actor.actor_id = actor.actor_id
-INNER JOIN filmm ON film_actor.film_id = film.film_id
+INNER JOIN film ON film_actor.film_id = film.film_id
 WHERE first_name = 'Nick' AND last_name = 'Wahlberg'; 
 
 -- so apparently you can stack joins on top of each other as long as the other table has a matching column as in the table in from clause.
