@@ -1,0 +1,21 @@
+DATE:15/07/2026
+TIME: 11:40 PM
+
+DID:
+- course lectures on timestamps and methods and functions to extract them out of a column
+
+LEARNED / DECIDED:
+- to see current run-time info with SHOW ALL
+- to display time info with function such as TIMEZONE(), NOW(), TIMEOFDAY(), CURRENT_DATE, CURRENT_TIME
+- to extract time info with EXTRACT(time_component FROM date_col) -- returns a column just like say SELECT date_col would return date_col
+- to show how old a date/timestamp in with AGE(date_col) function
+- to show timestamp info as custom string format with TO_CHAR(date_col, 'string_format_like DD/MM/YYYY or DDth Mon, YYYY')
+
+PROBLEM:
+- have to look up string formatting codes for using TO_CHAR function
+- docs for that https://www.postgresql.org/docs/current/functions-formatting.html
+- docs for EXTRACT(field from source): https://www.postgresql.org/docs/8.1/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
+
+NEXT:
+- challenge tasks on timestamps and extract
+- further continue with course onto math function and onwards
