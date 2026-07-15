@@ -3,6 +3,7 @@ TIME: 11:40 PM
 
 DID:
 - course lectures on timestamps and methods and functions to extract them out of a column
+- challenge tasks on timestamps and extract
 
 LEARNED / DECIDED:
 - to see current run-time info with SHOW ALL
@@ -17,5 +18,4 @@ PROBLEM:
 - docs for EXTRACT(field from source): https://www.postgresql.org/docs/8.1/functions-datetime.html#FUNCTIONS-DATETIME-EXTRACT
 
 NEXT:
-- challenge tasks on timestamps and extract
 - further continue with course onto math function and onwards
