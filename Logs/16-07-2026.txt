@@ -1,0 +1,17 @@
+DATE: 16/07/2026
+TIME:	8:43 AM
+
+DID:
+- lectures of string and math functions and operations
+
+LEARNED / DECIDED:
+- basic math operators and functions to be used on columns
+- basic sting manipulations like concat, upper, lower, etc for string columns
+
+PROBLEM:
+- further exploration of docs is needed for other functions
+- math function docs: https://www.postgresql.org/docs/9.5/functions-math.html
+- string function docs: https://www.postgresql.org/docs/9.1/functions-string.html
+
+NEXT:
+- move on to next topic of SubQuery
